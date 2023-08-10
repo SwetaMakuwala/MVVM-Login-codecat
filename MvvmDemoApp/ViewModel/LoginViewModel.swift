@@ -10,6 +10,7 @@ import Foundation
 
 protocol LoginViewModelDelegate {
     func didReceiveLoginResponse(loginResponse: LoginResponse?)
+    
 }
 
 struct LoginViewModel
